@@ -49,7 +49,8 @@ function getChosenQuote(message, date){
 
 //This is going to be the part that writes to the txt files
 function updateFiles(file){
-    fetch(file, {
+    const GitHubAPI = 'https://api.github.com/repos/gmeisman/Messages4You,conents/messages.txt'
+    fetch(GitHubAPI, {
         headers: {
             'Authorization': `Token $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`
         }
@@ -59,7 +60,7 @@ function updateFiles(file){
         let newContent = doSomeModifications('"Where this is love ther is life." -Mahatma Gandhi');
 
         //pushing the change
-        return fetch(file, {
+        return fetch(GitHubAPI, {
             headers: {
                 'Authorization': `Token $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`,
                 'Content-Type': 'application/json'
