@@ -61,7 +61,7 @@ function updateFiles(file){
     })
     .then(res => res.json())
     .then(data => {
-        let newContent = doSomeModifications('"Where this is love ther is life." -Mahatma Gandhi');
+        let newContent = '"Where this is love ther is life." -Mahatma Gandhi';
 
         //pushing the change
         return fetch(GitHubAPI, {
