@@ -52,7 +52,8 @@ function updateFiles(file){
     const GitHubAPI = 'https://api.github.com/repos/gmeisman/Messages4You/contents/messages.txt';
     fetch(GitHubAPI, {
         headers: {
-            'Authorization': `Token $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`
+            //'Authorization': `Token $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`
+            'Authorization': `Token $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`
         }
     })
     .then(res => res.json())
