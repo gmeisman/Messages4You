@@ -49,7 +49,7 @@ function getChosenQuote(message, date){
 
 //This is going to be the part that writes to the txt files
 function updateFiles(file){
-    const GitHubAPI = 'https://api.github.com/repos/gmeisman/Messages4You,conents/messages.txt'
+    const GitHubAPI = 'https://api.github.com/repos/gmeisman/Messages4You/contents/messages.txt';
     fetch(GitHubAPI, {
         headers: {
             'Authorization': `Token $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`
