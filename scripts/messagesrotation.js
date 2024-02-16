@@ -53,7 +53,9 @@ function updateFiles(file){
     fetch(GitHubAPI, {
         headers: {
             //'Authorization': `Token $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`
-            'Authorization': `Token $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`
+            //'Authorization': `Token $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`
+            'Authorization': `Token $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`
+
         }
     })
     .then(res => res.json())
