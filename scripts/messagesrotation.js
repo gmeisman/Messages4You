@@ -55,7 +55,7 @@ function updateFiles(file){
             //'Authorization': `Token $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`
             //'Authorization': `Token $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`
             //'Authorization': `Token $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`
-            'Authorization': `Token $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`
+            'Authorization': `Token $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`
 
         }
     })
