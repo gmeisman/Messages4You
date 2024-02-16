@@ -55,7 +55,24 @@ function updateFiles(file){
         }
     })
     .then(res => res.json())
-    .then(newContent = doSomeModifications('"Where this is love ther is life." -Mahatma Gandhi'))
+    .then(data => {
+        let newContent = doSomeModifications('"Where this is love ther is life." -Mahatma Gandhi');
+
+        //pushing the change
+        return fetch(file, {
+            headers: {
+                'Authorization': `Token $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`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                message: 'commit message',
+                conent: btoa(newContent),
+                sha: data.sha
+            })
+        });
+    })
+    .then(res => res.json())
+    .then(data => console.log(data));
 }
 
 updateFiles('messages.txt');
