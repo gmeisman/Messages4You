@@ -7,7 +7,7 @@ let OGquotes = ['"The best thing to hold onto in life is each other." - Audrey H
 
 let date = null
 let message = null
-
+/*
 function getDate(message){
     fetch('date.txt')
         .then(response => response.text())
@@ -46,7 +46,7 @@ function getChosenQuote(message, date){
         chosenQuote = getRandomElement(quotes)
     }
 }
-
+*/
 //This is going to be the part that writes to the txt files using a txt file, but I couldnt get it to update the txt file
 /*
 function updateFiles(file){
@@ -84,24 +84,24 @@ function updateFiles(file){
 updateFiles('messages.txt');*/
 //updated quotes
 function runAtMidnight(){
-    let quotes = ['I still remember sitting in a car with a switch and rocket league. I remember being so nervous I didnt think I could ever do anything again. I didnt know if I had to poop, pee, or to just lean over and take your hand. The following days when we leaned on eachother at Craigs place made me more giddy than any other feeling in the world.', '"Where this is love ther is life." -Mahatma Gandhi', '"I have decided to stick with love. Hate is too great a burden to bear." - Martin Luther King, Jr.', '"We are shaped and fashioned by those we love." - Goethe', '"Love is not only something you feel, it is something yoiu do." - David Wilkerson']
+    let quotes = ['"Where this is love ther is life." -Mahatma Gandhi', 'I still remember sitting in a car with a switch and rocket league. I remember being so nervous I didnt think I could ever do anything again. I didnt know if I had to poop, pee, or to just lean over and take your hand. The following days when we leaned on eachother at Craigs place made me more giddy than any other feeling in the world.', '"I have decided to stick with love. Hate is too great a burden to bear." - Martin Luther King, Jr.', '"We are shaped and fashioned by those we love." - Goethe', '"Love is not only something you feel, it is something yoiu do." - David Wilkerson']
     let chosenQuote = "empty";
     let currentDate = new Date();
     currentDate.setHours(0, 0, 0, 0);
     let specificDate0 = new Date(2024, 1, 22)
-    specificDate.setHours(0, 0, 0, 0)
+    specificDate0.setHours(0, 0, 0, 0)
     let specificDate1 = new Date(2024, 1, 23)
-    specificDate.setHours(0, 0, 0, 0)
+    specificDate1.setHours(0, 0, 0, 0)
     let specificDate2 = new Date(2024, 1, 24)
-    specificDate.setHours(0, 0, 0, 0)
+    specificDate2.setHours(0, 0, 0, 0)
     let specificDate3 = new Date(2024, 1, 25)
-    specificDate.setHours(0, 0, 0, 0)
+    specificDate3.setHours(0, 0, 0, 0)
     let specificDate4 = new Date(2024, 1, 26)
-    specificDate.setHours(0, 0, 0, 0)
+    specificDate4.setHours(0, 0, 0, 0)
     let specificDate5 = new Date(2024, 1, 27)
-    specificDate.setHours(0, 0, 0, 0)
+    specificDate5.setHours(0, 0, 0, 0)
     let specificDate6 = new Date(2024, 1, 28)
-    specificDate.setHours(0, 0, 0, 0)
+    specificDate6.setHours(0, 0, 0, 0)
     if(specificDate0.getDate() == currentDate.getDate()){
         chosenQuote = quotes[0];
     }
@@ -123,6 +123,11 @@ function runAtMidnight(){
     else if(specificDate6.getDate() == currentDate.getDate()){
         chosenQuote = quotes[6];
     }
+    setElementText("#message", chosenQuote);
+
+    function setElementText(element, text){
+        document.querySelector(element).innerText = text;
+    }
     /*else{
         chosenQuote = getRandomElement(quotes)
     }*/
@@ -142,11 +147,11 @@ function timeTillMidnight() {
 setTimeout(runAtMidnight, timeTillMidnight());
 let elementContainer = document.getElementById("message");
 elementContainer.textContent = message.toString()*/
-console.log(chosenQuote);
-
+//console.log(chosenQuote);
+runAtMidnight()
 //Copywrite Year
-setElementText(".Message", (chosenQuote).toString());
-/*
+/*setElementText(".Message", (chosenQuote).toString());
+
 function setElementText(element, text){
     document.querySelector(element).innerText = text;
 }*/
