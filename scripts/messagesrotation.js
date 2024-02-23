@@ -82,7 +82,7 @@ function updateFiles(file){
 }
 
 updateFiles('messages.txt');*/
-//updated
+//updated quotes
 function runAtMidnight(){
     let quotes = ['I still remember sitting in a car with a switch and rocket league. I remember being so nervous I didnt think I could ever do anything again. I didnt know if I had to poop, pee, or to just lean over and take your hand. The following days when we leaned on eachother at Craigs place made me more giddy than any other feeling in the world.', '"Where this is love ther is life." -Mahatma Gandhi', '"I have decided to stick with love. Hate is too great a burden to bear." - Martin Luther King, Jr.', '"We are shaped and fashioned by those we love." - Goethe', '"Love is not only something you feel, it is something yoiu do." - David Wilkerson']
     let chosenQuote = "empty";
