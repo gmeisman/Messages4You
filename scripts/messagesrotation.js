@@ -84,7 +84,7 @@ function updateFiles(file){
 updateFiles('messages.txt');*/
 //updated quotes
 function runAtMidnight(){
-    let quotes = ['"Where this is love ther is life." -Mahatma Gandhi', 'I still remember sitting in a car with a switch and rocket league. I remember being so nervous I didnt think I could ever do anything again. I didnt know if I had to poop, pee, or to just lean over and take your hand. The following days when we leaned on eachother at Craigs place made me more giddy than any other feeling in the world.', '"I have decided to stick with love. Hate is too great a burden to bear." - Martin Luther King, Jr.', '"We are shaped and fashioned by those we love." - Goethe', '"Love is not only something you feel, it is something yoiu do." - David Wilkerson']
+    let quotes = ['"Where this is love there is life." -Mahatma Gandhi', 'I still remember sitting in a car with a switch and rocket league. I remember being so nervous I didnt think I could ever do anything again. I didnt know if I had to poop, pee, or to just lean over and take your hand. The following days when we leaned on eachother at Craigs place made me more giddy than any other feeling in the world.', "You are", '"We are shaped and fashioned by those we love." - Goethe', '"Love is not only something you feel, it is something yoiu do." - David Wilkerson', '"Where this is love there is life." -Mahatma Gandhi']
     let chosenQuote = "empty";
     let currentDate = new Date();
     currentDate.setHours(0, 0, 0, 0);
