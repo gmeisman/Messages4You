@@ -84,19 +84,20 @@ function updateFiles(file){
 updateFiles('messages.txt');*/
 //updated quotes
 function runAtMidnight(){
-    let quotes = ['"Where this is love there is life." -Mahatma Gandhi', 'I still remember sitting in a car with a switch and rocket league. I remember being so nervous I didnt think I could ever do anything again. I didnt know if I had to poop, pee, or to just lean over and take your hand. The following days when we leaned on eachother at Craigs place made me more giddy than any other feeling in the world.', "You are", '"We are shaped and fashioned by those we love." - Goethe', '"Love is not only something you feel, it is something yoiu do." - David Wilkerson', '"Where this is love there is life." -Mahatma Gandhi']
+    let oldquotes = ['"Where this is love there is life." -Mahatma Gandhi', 'I still remember sitting in a car with a switch and rocket league. I remember being so nervous I didnt think I could ever do anything again. I didnt know if I had to poop, pee, or to just lean over and take your hand. The following days when we leaned on eachother at Craigs place made me more giddy than any other feeling in the world.', "You are", '"We are shaped and fashioned by those we love." - Goethe', '"Love is not only something you feel, it is something yoiu do." - David Wilkerson', '"Where this is love there is life." -Mahatma Gandhi']
+    let quotes = ['I cannot believe how lucky I am too have you. I have never been more blessed than in the moment I laid eyes on you. God blessed me and set us up to be together forever! I Love You!', 'The times taht I hold you are the times I feel most alive. It is funny that the time I am most comfortable isnt when I am home or any certain place but rather when I am in your arms.', 'Never give up baby! If you ever start to struggle just call me. You will always be believed in. So if you ever doubt yourself, just remember I dont doubt you.']
     let chosenQuote = "empty";
     let currentDate = new Date();
     currentDate.setHours(0, 0, 0, 0);
-    let specificDate0 = new Date(2024, 1, 22)
+    let specificDate0 = new Date(2024, 1, 29)
     specificDate0.setHours(0, 0, 0, 0)
-    let specificDate1 = new Date(2024, 1, 23)
+    let specificDate1 = new Date(2024, 2, 1)
     specificDate1.setHours(0, 0, 0, 0)
-    let specificDate2 = new Date(2024, 1, 24)
+    let specificDate2 = new Date(2024, 2, 2)
     specificDate2.setHours(0, 0, 0, 0)
-    let specificDate3 = new Date(2024, 1, 25)
+    let specificDate3 = new Date(2024, 2, 3)
     specificDate3.setHours(0, 0, 0, 0)
-    let specificDate4 = new Date(2024, 1, 26)
+    let specificDate4 = new Date(2024, 2, 4)
     specificDate4.setHours(0, 0, 0, 0)
     let specificDate5 = new Date(2024, 1, 27)
     specificDate5.setHours(0, 0, 0, 0)
