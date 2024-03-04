@@ -84,20 +84,20 @@ function updateFiles(file){
 updateFiles('messages.txt');*/
 //updated quotes
 function runAtMidnight(){
-    let oldquotes = ['"Where this is love there is life." -Mahatma Gandhi', 'I still remember sitting in a car with a switch and rocket league. I remember being so nervous I didnt think I could ever do anything again. I didnt know if I had to poop, pee, or to just lean over and take your hand. The following days when we leaned on eachother at Craigs place made me more giddy than any other feeling in the world.', "You are", '"We are shaped and fashioned by those we love." - Goethe', '"Love is not only something you feel, it is something yoiu do." - David Wilkerson', '"Where this is love there is life." -Mahatma Gandhi']
-    let quotes = ['I cannot believe how lucky I am too have you. I have never been more blessed than in the moment I laid eyes on you. God blessed me and set us up to be together forever! I Love You!', 'The times taht I hold you are the times I feel most alive. It is funny that the time I am most comfortable isnt when I am home or any certain place but rather when I am in your arms.', 'Never give up baby! If you ever start to struggle just call me. You will always be believed in. So if you ever doubt yourself, just remember I dont doubt you.']
+    let oldquotes = ['"Where this is love there is life." -Mahatma Gandhi', 'I still remember sitting in a car with a switch and rocket league. I remember being so nervous I didnt think I could ever do anything again. I didnt know if I had to poop, pee, or to just lean over and take your hand. The following days when we leaned on eachother at Craigs place made me more giddy than any other feeling in the world.', "You are", '"We are shaped and fashioned by those we love." - Goethe', '"Love is not only something you feel, it is something yoiu do." - David Wilkerson', '"Where this is love there is life." -Mahatma Gandhi','I cannot believe how lucky I am too have you. I have never been more blessed than in the moment I laid eyes on you. God blessed me and set us up to be together forever! I Love You!', 'The times taht I hold you are the times I feel most alive. It is funny that the time I am most comfortable isnt when I am home or any certain place but rather when I am in your arms.', 'Never give up baby! If you ever start to struggle just call me. You will always be believed in. So if you ever doubt yourself, just remember I dont doubt you.']
+    let quotes = ["Things in life will always happen. Good, bad, happy, sad, life, death, yin, and yang. There will always be balance. The one thing that you can count on is that I will always be there for you and that I love you. Nothing will ever change that.", "I am in love with you. Nothing, no distance, no fear no anything will ever change that. I will always be with you in your heart, just as you will always be in mine 😘."]
     let chosenQuote = "empty";
     let currentDate = new Date();
     currentDate.setHours(0, 0, 0, 0);
-    let specificDate0 = new Date(2024, 1, 29)
+    let specificDate0 = new Date(2024, 2, 3)
     specificDate0.setHours(0, 0, 0, 0)
-    let specificDate1 = new Date(2024, 2, 1)
+    let specificDate1 = new Date(2024, 2, 4)
     specificDate1.setHours(0, 0, 0, 0)
-    let specificDate2 = new Date(2024, 2, 2)
+    let specificDate2 = new Date(2024, 2, 5)
     specificDate2.setHours(0, 0, 0, 0)
-    let specificDate3 = new Date(2024, 2, 3)
+    let specificDate3 = new Date(2024, 2, 6)
     specificDate3.setHours(0, 0, 0, 0)
-    let specificDate4 = new Date(2024, 2, 4)
+    let specificDate4 = new Date(2024, 2, 7)
     specificDate4.setHours(0, 0, 0, 0)
     let specificDate5 = new Date(2024, 1, 27)
     specificDate5.setHours(0, 0, 0, 0)
