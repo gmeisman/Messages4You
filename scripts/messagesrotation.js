@@ -85,23 +85,24 @@ updateFiles('messages.txt');*/
 //updated quotes
 function runAtMidnight(){
     let oldquotes = ['"Where this is love there is life." -Mahatma Gandhi', 'I still remember sitting in a car with a switch and rocket league. I remember being so nervous I didnt think I could ever do anything again. I didnt know if I had to poop, pee, or to just lean over and take your hand. The following days when we leaned on eachother at Craigs place made me more giddy than any other feeling in the world.', "You are", '"We are shaped and fashioned by those we love." - Goethe', '"Love is not only something you feel, it is something yoiu do." - David Wilkerson', '"Where this is love there is life." -Mahatma Gandhi','I cannot believe how lucky I am too have you. I have never been more blessed than in the moment I laid eyes on you. God blessed me and set us up to be together forever! I Love You!', 'The times taht I hold you are the times I feel most alive. It is funny that the time I am most comfortable isnt when I am home or any certain place but rather when I am in your arms.', 'Never give up baby! If you ever start to struggle just call me. You will always be believed in. So if you ever doubt yourself, just remember I dont doubt you.']
-    let quotes = ["Things in life will always happen. Good, bad, happy, sad, life, death, yin, and yang. There will always be balance. The one thing that you can count on is that I will always be there for you and that I love you. Nothing will ever change that.", "I am in love with you. Nothing, no distance, no fear no anything will ever change that. I will always be with you in your heart, just as you will always be in mine 😘.", "I will always be looking for ways to improve your life. Not because I think you need to have more stuff or because I am trying to buy your affection. I am going to get yoiu things because I love you enough to want to improve your life anyway that I can."]
+    let oldquotes2 = ["Things in life will always happen. Good, bad, happy, sad, life, death, yin, and yang. There will always be balance. The one thing that you can count on is that I will always be there for you and that I love you. Nothing will ever change that.", "I am in love with you. Nothing, no distance, no fear no anything will ever change that. I will always be with you in your heart, just as you will always be in mine 😘.", "I will always be looking for ways to improve your life. Not because I think you need to have more stuff or because I am trying to buy your affection. I am going to get yoiu things because I love you enough to want to improve your life anyway that I can."]
+    let quotes = ["You are invincible. Don't forget that. You will always be the one person that I would bet on changing the world. I love you!", "I miss you baby. I hope that you always remember that I will love you! Never forget your worth!", "I love you baby. You are one of the people that has made my life so beautiful. You are the Vango that has started to make my life a master piece!", "You're so hot that if you were bread you would poop out toast!"]
     let chosenQuote = "empty";
     let currentDate = new Date();
     currentDate.setHours(0, 0, 0, 0);
-    let specificDate0 = new Date(2024, 2, 3)
+    let specificDate0 = new Date(2024, 4, 15)
     specificDate0.setHours(0, 0, 0, 0)
-    let specificDate1 = new Date(2024, 2, 4)
+    let specificDate1 = new Date(2024, 4, 16)
     specificDate1.setHours(0, 0, 0, 0)
-    let specificDate2 = new Date(2024, 2, 5)
+    let specificDate2 = new Date(2024, 4, 17)
     specificDate2.setHours(0, 0, 0, 0)
-    let specificDate3 = new Date(2024, 2, 6)
+    let specificDate3 = new Date(2024, 4, 18)
     specificDate3.setHours(0, 0, 0, 0)
-    let specificDate4 = new Date(2024, 2, 7)
+    let specificDate4 = new Date(2024, 4, 19)
     specificDate4.setHours(0, 0, 0, 0)
-    let specificDate5 = new Date(2024, 1, 27)
+    let specificDate5 = new Date(2024, 4, 20)
     specificDate5.setHours(0, 0, 0, 0)
-    let specificDate6 = new Date(2024, 1, 28)
+    let specificDate6 = new Date(2024, 4, 21)
     specificDate6.setHours(0, 0, 0, 0)
     if(specificDate0.getDate() == currentDate.getDate()){
         chosenQuote = quotes[0];
