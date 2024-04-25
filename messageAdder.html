@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Garren Meisman">
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a website with daily messages for my one and only">
+    <!--<meta property="og:title" content="Garren Meisman Course Assignment Portal WDD 230">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://garrenbyu.github.io/wdd230\images\Provo.jpg">
+    <meta property="og:url" content="https://garrenbyu.github.io/wdd230/">
+    <link rel="icon" href="images/favicon.ico">-->
+    <!--css style sheets-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <!--Google API fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
+    <title>Messages4You Message Adder</title>
+</head>
+<body>
+    <header>
+        <h1>Messages4You Message Adder</h1>
+        <h3>This will add messages</h3>
+    </header>
+    <p class="Message" id="message">Enter new message here</p>
+
+    <input type="text" id="newMessage"><br><br>
+    <button type="submit" value="Submit" onclick="newmessage()">Submit</button>
+
+    <script src="scripts/messagesrotation.js"></script>
+    <footer>
+        <p>&copy; <span id="copywrite-year"></span> TonkaTruckSoftware Based in Utah</p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+</body>
+</html>
