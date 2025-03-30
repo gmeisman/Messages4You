@@ -134,6 +134,9 @@ function runAtMidnight(){
     else if(specificDate6.getDate() == currentDate.getDate()){
         chosenQuote = quotes[6];
     }
+    else{
+        chosenQuote = 'You are special. You have no idea the power you have on me and the influence you have on me. I am so sorry for making you feel so tiny, unimportant and belittled. Thank you for being such a patient and strong example. Let me know when you wee this and I will change it up.'
+    }
     setElementText("#message", chosenQuote);
 
     function setElementText(element, text){
